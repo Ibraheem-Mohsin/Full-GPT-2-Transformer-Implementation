@@ -156,24 +156,18 @@ Uses normal initialization with special residual scaling for stability in deep r
 ### 5. Lightweight Data Loader
 A simple custom data loader tokenizes `input.txt` and creates next-token prediction batches.
 
-### 6. Learning Rate Scheduler
-Includes:
 
-- **linear warmup**
-- **cosine decay**
-- optional minimum learning rate floor
-
-### 7. Gradient Clipping
+### 6. Gradient Clipping
 Prevents exploding gradients during training.
 
-### 8. Text Generation
+### 7. Text Generation
 Supports autoregressive generation with:
 
 - prefix prompt input
 - top-k sampling
 - repeated generation of multiple continuations
 
-### 9. Educational Probing / Inspection
+### 8. Educational Probing / Inspection
 The code can be extended to inspect internal tensors such as:
 
 - token embeddings
@@ -230,7 +224,7 @@ torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
 
 This helps keep training stable.
 
-### Learning Rate Schedule
+### Learning Rate Scheduler
 The schedule has 3 phases:
 
 1. **warmup**: linearly increase learning rate
