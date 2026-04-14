@@ -269,6 +269,7 @@ pip install jupyter matplotlib
 ## How to Run
 
 ### Train the model
+Run
 
 ```bash
 python train.py
@@ -280,6 +281,7 @@ If generation code is enabled in the script, the model can generate text from a 
 ```text
 "Hello, I'm a language model, "
 ```
+Run 
 ```bash
 python inspect_model.py
 ```
