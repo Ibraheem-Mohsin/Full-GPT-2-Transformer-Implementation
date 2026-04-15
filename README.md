@@ -109,7 +109,7 @@ This gives the model additional nonlinear expressive power.
 
 ## Default GPT Configuration
 
-The default implementation matches **GPT-2 Small style dimensions**:
+The default implementation matches **GPT-2 (Small) style dimensions**:
 
 | Parameter | Value |
 |---|---:|
