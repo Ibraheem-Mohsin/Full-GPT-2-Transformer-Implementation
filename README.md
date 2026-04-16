@@ -302,7 +302,7 @@ This repository is intended as a learning project for understanding:
 - how warmup and cosine decay schedules work
 - how weight initialization and residual scaling stabilize training
 
-It is especially useful for students and enthusiasts who want to move from using pretrained models to **understanding how they are built internally**.
+It is especially useful for **students and enthusiasts** who want to move from using pretrained models to **understanding how they are built internally**.
 
 ---
 
