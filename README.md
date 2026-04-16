@@ -290,33 +290,8 @@ step    0 | loss: 10.923451 | norm: 1.2874 | dt: 82.14ms | tok/sec: 779.1
 
 ---
 
-## Normalization Experiments
 
-In addition to the GPT model, this project also includes experiments to understand:
-
-- **Batch Normalization vs Layer Normalization**
-- why **LayerNorm is used in Transformers**
-- how BatchNorm depends on batch statistics
-- how LayerNorm normalizes per token / per sample
-
-These notebook experiments are useful when presenting the project academically.
-
----
-
-## Why LayerNorm Instead of BatchNorm?
-
-Transformers use **LayerNorm** because:
-
-- it works independently of batch size
-- it behaves the same in training and inference
-- it is stable for sequence models
-- it normalizes across feature dimensions, not across unrelated batch samples
-
-BatchNorm is more common in CNNs because image batches provide stable batch statistics.
-
----
-
-## Educational Value of This Project
+## Learning
 
 This repository is intended as a learning project for understanding:
 
@@ -327,7 +302,7 @@ This repository is intended as a learning project for understanding:
 - how warmup and cosine decay schedules work
 - how weight initialization and residual scaling stabilize training
 
-It is especially useful for students and beginners who want to move from using pretrained models to **understanding how they are built internally**.
+It is especially useful for students and enthusiasts who want to move from using pretrained models to **understanding how they are built internally**.
 
 ---
 
